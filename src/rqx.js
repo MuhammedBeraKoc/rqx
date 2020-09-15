@@ -13,7 +13,7 @@ const MODULE_NOT_FOUND_ERROR_CODE = 195
  * @return {*}
  */
 module.exports = (moduleName) => {
-    const rootSegments = [__dirname, '..', '..', '..']
+    const rootSegments = [__dirname, '..', '..', '..', '..']
     process.chdir(path.resolve(...rootSegments))
     let module
     try {

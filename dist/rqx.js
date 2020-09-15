@@ -18,7 +18,7 @@ var MODULE_NOT_FOUND_ERROR_CODE = 195;
  */
 
 module.exports = function (moduleName) {
-  var rootSegments = [__dirname, '..', '..', '..'];
+  var rootSegments = [__dirname, '..', '..', '..', '..'];
   process.chdir(path.resolve.apply(path, rootSegments));
   var module;
 

@@ -1,6 +1,6 @@
 {
     "name": "@berakocc/rqx",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "An exquisite npm library for enhanced require in NodeJS",
     "main": "dist/rqx.js",
     "scripts": {
