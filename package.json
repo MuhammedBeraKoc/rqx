@@ -1,0 +1,36 @@
+{
+    "name": "@berakocc/rqx",
+    "version": "1.0.0",
+    "description": "An exquisite npm library for enhanced require in NodeJS",
+    "main": "dist/rqx.js",
+    "scripts": {
+        "test": "jest --verbose",
+        "clean": "del-cli dist/*.js",
+        "build": "npm run clean && npx babel src/**/*.js -d dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MuhammedBeraKoc/rqx.git"
+    },
+    "keywords": [
+        "require",
+        "node",
+        "module"
+    ],
+    "author": "Muhammed Bera Koc",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/MuhammedBeraKoc/rqx/issues"
+    },
+    "homepage": "https://github.com/MuhammedBeraKoc/rqx#readme",
+    "publishConfig": {
+        "access": "public"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.11.6",
+        "@babel/core": "^7.11.6",
+        "@babel/preset-env": "^7.11.5",
+        "del-cli": "^3.0.1"
+    },
+    "dependencies": {}
+}
